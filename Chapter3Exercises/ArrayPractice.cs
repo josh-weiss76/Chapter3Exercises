@@ -12,6 +12,14 @@ namespace Chapter3Exercises
             {
                 Console.WriteLine(array[i]);
             }
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] % 2 == 1)
+                {
+                    Console.WriteLine(array[i]);
+                }
+            }
             return 0;
         }
     }
